@@ -1,0 +1,6 @@
+{
+  "name": "GameComponents.Components",
+  "references": [
+    "GameComponents.Api"
+  ]
+}
