@@ -1,0 +1,7 @@
+{
+  "name": "ConfigLoaders.UnityResources",
+  "references": [
+    "ConfigLoaders.Api",
+    "JsonSerialization"
+  ]
+}

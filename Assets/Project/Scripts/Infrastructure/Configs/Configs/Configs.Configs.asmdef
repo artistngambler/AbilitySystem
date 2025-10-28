@@ -1,0 +1,6 @@
+{
+  "name": "Configs.Configs",
+  "references": [
+    "Configs.Api"
+  ]
+}

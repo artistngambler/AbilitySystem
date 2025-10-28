@@ -1,0 +1,11 @@
+{
+  "name": "UnityBridge",
+  "references": [
+    "VContainer",
+    "JsonSerialization",
+    "Configs.Api",
+    "Configs.Configs",
+    "GameComponents.Api",
+    "GameComponents.Components"
+  ]
+}
