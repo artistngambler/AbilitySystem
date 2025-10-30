@@ -1,4 +1,6 @@
 {
   "name": "GameComponents.Api",
-  "references": []
+  "references": [
+    "GameComponents.Abilities.Api"
+  ]
 }

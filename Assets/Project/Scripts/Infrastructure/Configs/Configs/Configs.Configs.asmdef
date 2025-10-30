@@ -1,6 +1,8 @@
 {
   "name": "Configs.Configs",
   "references": [
-    "Configs.Api"
+    "Configs.Api",
+    "ConfigLoaders.UnityResources",
+    "GameComponents.Abilities.Implementation"
   ]
 }

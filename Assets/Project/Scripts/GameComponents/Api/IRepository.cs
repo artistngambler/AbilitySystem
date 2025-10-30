@@ -1,4 +1,7 @@
 namespace GameComponents
 {
-    public interface IRepository { }
+    public interface IRepository
+    {
+        Abilities.IComponent Abilities { get; }
+    }
 }

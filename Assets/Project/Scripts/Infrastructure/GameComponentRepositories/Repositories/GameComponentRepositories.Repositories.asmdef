@@ -1,0 +1,8 @@
+{
+  "name": "GameComponentRepositories.Repositories",
+  "references": [
+    "VContainer",
+    "GameComponentRepositories.Api",
+    "GameComponents.Abilities.Implementation"
+  ]
+}

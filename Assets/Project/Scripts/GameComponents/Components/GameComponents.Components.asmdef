@@ -1,6 +1,9 @@
 {
   "name": "GameComponents.Components",
   "references": [
-    "GameComponents.Api"
+    "VContainer",
+    "Attributes",
+    "GameComponents.Api",
+    "GameComponents.Abilities.Api"
   ]
 }
