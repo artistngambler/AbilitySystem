@@ -1,3 +1,6 @@
 {
-  "name": "Configs.Api"
+  "name": "Configs.Api",
+  "references": [
+    "GameComponents.Abilities.Implementation"
+  ]
 }

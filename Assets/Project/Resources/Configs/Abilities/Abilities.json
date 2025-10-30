@@ -1,0 +1,87 @@
+{
+  "Abilities": {
+    "FireBall": {
+      "Id": "FireBall",
+      "Type": "Active",
+      "Cast": {
+        "Value": 2.0
+      },
+      "Cooldown": {
+        "Value": 5.0
+      },
+      "Effects": [
+        {
+          "DurationPolicy": "Instant",
+          "Modifier": {
+            "Attribute": "Health",
+            "Operation": "Add",
+            "Parameters": [
+              10.0
+            ],
+            "MagnitudeCalculationClass": "BaseDamage"
+          }
+        }
+      ]
+    },
+    "Prayer": {
+      "Id": "Prayer",
+      "Type": "Active",
+      "Cast": {
+        "Value": 3.0
+      },
+      "Cooldown": {
+        "Value": 10.0
+      },
+      "Effects": [
+        {
+          "DurationPolicy": "Instant",
+          "Modifier": {
+            "Attribute": "Health",
+            "Operation": "Add",
+            "Parameters": [
+              15.0
+            ],
+            "MagnitudeCalculationClass": "BaseHeal"
+          }
+        },
+        {
+          "DurationPolicy": "HasDuration",
+          "Duration": {
+            "Value": 8.0
+          },
+          "Modifier": {
+            "Attribute": "Attack",
+            "Operation": "Multiply",
+            "Parameters": [
+              25.0
+            ],
+            "MagnitudeCalculationClass": "BaseParameter"
+          }
+        }
+      ]
+    },
+    "StrongWill": {
+      "Id": "StrongWill",
+      "Type": "Passive",
+      "ActivationRequirements": {
+        "Attribute": "Health",
+        "Operation": "Less",
+        "Value": 50.0,
+        "ValueType" : "Relative"
+      },
+      "Effects": [
+        {
+          "DurationPolicy": "Infinite",
+          "Modifier": {
+            "Attribute": "CriticalHitRate",
+            "Operation": "Add",
+            "Parameters": [
+              30.0
+            ],
+            "MagnitudeCalculationClass": "BaseParameter"
+          }
+        }
+      ]
+    }
+  }
+}

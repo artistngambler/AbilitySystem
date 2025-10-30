@@ -6,6 +6,10 @@
     "Configs.Api",
     "Configs.Configs",
     "GameComponents.Api",
-    "GameComponents.Components"
+    "GameComponents.Components",
+    "GameComponentRepositories.Api",
+    "GameComponentRepositories.Repositories",
+    "GameComponents.Abilities.Api",
+    "GameComponents.Abilities.Implementation"
   ]
 }

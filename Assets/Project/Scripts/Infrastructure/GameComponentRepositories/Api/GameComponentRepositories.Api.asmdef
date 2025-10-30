@@ -1,0 +1,6 @@
+{
+  "name": "GameComponentRepositories.Api",
+  "references": [
+    "GameComponents.Abilities.Implementation"
+  ]
+}

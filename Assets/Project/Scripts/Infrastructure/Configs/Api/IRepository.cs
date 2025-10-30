@@ -1,4 +1,7 @@
 namespace Configs
 {
-    public interface IRepository { }
+    public interface IRepository
+    {
+        GameComponents.Abilities.IConfig Abilities { get; }
+    }
 }
