@@ -1,0 +1,8 @@
+{
+  "name": "Gameplay",
+  "references": [
+    "Leopotam.EcsLite",
+    "Gameplay.StateMachines",
+    "GameComponents.Api"
+  ]
+}
