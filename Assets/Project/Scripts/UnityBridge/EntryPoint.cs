@@ -1,3 +1,4 @@
+using Gameplay;
 using System;
 using VContainer.Unity;
 
@@ -8,20 +9,29 @@ namespace UnityBridge
           ITickable,
           IDisposable
     {
+        readonly GameComponents.IRepository gameComponents;
+
+        World world;
+
+        public EntryPoint(GameComponents.IRepository gameComponents)
+        {
+            this.gameComponents = gameComponents;
+        }
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            world.Cleanup();
         }
 
         public void Start()
         {
-            throw new NotImplementedException();
+            world = new World(gameComponents);
+            world.Initialize();
         }
 
         public void Tick()
         {
-            throw new NotImplementedException();
+            world.Execute();
         }
     }
 }

@@ -10,6 +10,7 @@
     "GameComponentRepositories.Api",
     "GameComponentRepositories.Repositories",
     "GameComponents.Abilities.Api",
-    "GameComponents.Abilities.Implementation"
+    "GameComponents.Abilities.Implementation",
+    "Gameplay"
   ]
 }
