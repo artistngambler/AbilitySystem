@@ -19,7 +19,8 @@
               10.0
             ],
             "MagnitudeCalculationClass": "BaseDamage"
-          }
+          },
+          "Rate": 1.0
         }
       ]
     },
@@ -42,7 +43,8 @@
               15.0
             ],
             "MagnitudeCalculationClass": "BaseHeal"
-          }
+          },
+          "Rate": 1.0
         },
         {
           "DurationPolicy": "HasDuration",
@@ -56,7 +58,8 @@
               25.0
             ],
             "MagnitudeCalculationClass": "BaseParameter"
-          }
+          },
+          "Rate": 0.8
         }
       ]
     },
@@ -79,7 +82,8 @@
               30.0
             ],
             "MagnitudeCalculationClass": "BaseParameter"
-          }
+          },
+          "Rate": 1.0
         }
       ]
     }

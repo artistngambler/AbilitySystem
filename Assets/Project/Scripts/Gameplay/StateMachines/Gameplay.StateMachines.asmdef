@@ -2,6 +2,8 @@
   "name": "Gameplay.StateMachines",
   "references": [
     "Leopotam.EcsLite",
-    "GameComponents.Api"
+    "GameComponents.Api",
+    "Gameplay.Abilities",
+    "Gameplay.Modifiers"
   ]
 }
