@@ -1,0 +1,7 @@
+{
+  "name": "Gameplay.Modifiers",
+  "references": [
+    "Math",
+    "Attributes"
+  ]
+}

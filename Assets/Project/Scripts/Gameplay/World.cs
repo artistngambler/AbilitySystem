@@ -1,6 +1,7 @@
 using Gameplay.StateMachines;
 using Gameplay.StateMachines.GameSM;
 using Leopotam.EcsLite;
+using System;
 using System.Collections.Generic;
 
 namespace Gameplay
@@ -14,8 +15,9 @@ namespace Gameplay
         public World(GameComponents.IRepository gameComponents)
         {
             world = new EcsWorld();
+            var random = new Random(DateTime.UtcNow.Millisecond);
 
-            var states = new List<IState> { new CombatState(world, gameComponents) };
+            var states = new List<IState> { new CombatState(world, gameComponents, random) };
             gameStateMachine = new GameStateMachine(states);
         }
 

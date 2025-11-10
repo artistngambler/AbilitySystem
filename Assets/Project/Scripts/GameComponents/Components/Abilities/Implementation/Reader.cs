@@ -36,7 +36,7 @@ namespace GameComponents.Abilities
                 int parametersCount = effectInternal.Modifier.Parameters.Length;
                 float[] parameters = new float[parametersCount];
 
-                for (int i = 0; i < parametersCount - 1; i++)
+                for (int i = 0; i < parametersCount; i++)
                 {
                     parameters[i] = effectInternal.Modifier.Parameters[i];
                 }
@@ -48,7 +48,7 @@ namespace GameComponents.Abilities
                     effectInternal.Modifier.MagnitudeCalculationClass
                 );
 
-                var effect = new Effect(effectInternal.DurationPolicy, duration, period, modifier);
+                var effect = new Effect(effectInternal.DurationPolicy, duration, period, modifier, effectInternal.Rate);
                 effects.Add(effect);
             }
 

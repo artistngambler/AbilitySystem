@@ -1,0 +1,11 @@
+{
+  "name": "Gameplay.Abilities",
+  "references": [
+    "Leopotam.EcsLite",
+    "Attributes",
+    "Math",
+    "Gameplay.Common",
+    "Gameplay.Modifiers",
+    "GameComponents.Abilities.Api"
+  ]
+}

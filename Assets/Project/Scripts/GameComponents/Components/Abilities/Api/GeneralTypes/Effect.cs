@@ -6,13 +6,15 @@ namespace GameComponents.Abilities
         public readonly Duration Duration;
         public readonly Period Period;
         public readonly Modifier Modifier;
+        public readonly float Rate;
 
-        public Effect(DurationPolicy durationPolicy, Duration duration, Period period, Modifier modifier)
+        public Effect(DurationPolicy durationPolicy, Duration duration, Period period, Modifier modifier, float rate)
         {
             DurationPolicy = durationPolicy;
             Duration = duration;
             Period = period;
             Modifier = modifier;
+            Rate = rate;
         }
     }
 }

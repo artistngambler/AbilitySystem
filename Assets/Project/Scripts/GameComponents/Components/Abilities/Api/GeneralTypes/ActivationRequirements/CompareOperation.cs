@@ -5,7 +5,7 @@ namespace GameComponents.Abilities
         Greater = 0,
         Less = 1,
         Equal = 2,
-        GreaterEqual = 3,
+        GreaterOrEqual = 3,
         LessOrEqual = 4,
         NotEqual = 5
     }

@@ -1,0 +1,7 @@
+{
+  "name": "Gameplay.Common",
+  "references": [
+    "Leopotam.EcsLite",
+    "Attributes"
+  ]
+}

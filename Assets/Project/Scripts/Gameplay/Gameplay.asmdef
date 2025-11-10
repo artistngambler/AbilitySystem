@@ -2,7 +2,10 @@
   "name": "Gameplay",
   "references": [
     "Leopotam.EcsLite",
+    "Gameplay.Common",
     "Gameplay.StateMachines",
+    "Gameplay.Abilities",
+    "Gameplay.Modifiers",
     "GameComponents.Api"
   ]
 }
